@@ -11,7 +11,8 @@ public class MainTest extends TestCase {
 
     @Test
     public void testGetOne() {
-        assertThat(Main.getOne(), is(1));   
+        // minor comment
+	assertThat(Main.getOne(), is(1));   
         assertThat(Main.getOne(), is(not(2)));
     }
 
